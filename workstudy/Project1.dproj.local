@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/12/12 11:08:43.437.pas,C:\Users\67006\Documents\RAD Studio\Projects\Unit1.pas=D:\RADproject\workstudy\register.pas</Transaction>
+    <Transaction>2019/12/12 11:08:43.437.dfm,C:\Users\67006\Documents\RAD Studio\Projects\Unit1.dfm=D:\RADproject\workstudy\register.dfm</Transaction>
+    <Transaction>2019/12/12 11:26:16.403.dproj,C:\Users\67006\Documents\RAD Studio\Projects\Project1.dproj=D:\RADproject\workstudy\Project1.dproj</Transaction>
+    <Transaction>2019/12/12 19:23:39.825.pas,D:\RADproject\workstudy\Unit2.pas=D:\RADproject\workstudy\sign_up.pas</Transaction>
+    <Transaction>2019/12/12 19:23:39.825.dfm,D:\RADproject\workstudy\Unit2.dfm=D:\RADproject\workstudy\sign_up.dfm</Transaction>
+    <Transaction>2019/12/12 20:32:34.435.pas,D:\RADproject\workstudy\Unit3.pas=D:\RADproject\workstudy\main.pas</Transaction>
+    <Transaction>2019/12/12 20:32:34.435.dfm,D:\RADproject\workstudy\Unit3.dfm=D:\RADproject\workstudy\main.dfm</Transaction>
+    <Transaction>2019/12/12 22:30:16.380.pas,D:\RADproject\workstudy\Unit4.pas=D:\RADproject\workstudy\digitalClock.pas</Transaction>
+    <Transaction>2019/12/12 22:30:16.380.dfm,D:\RADproject\workstudy\Unit4.dfm=D:\RADproject\workstudy\digitalClock.dfm</Transaction>
+    <Transaction>2019/12/12 22:33:24.350.pas,D:\RADproject\workstudy\digitalClock.pas=</Transaction>
+    <Transaction>2019/12/12 22:33:24.350.dfm,D:\RADproject\workstudy\digitalClock.dfm=</Transaction>
+    <Transaction>2019/12/12 22:38:44.004.pas,D:\RADproject\workstudy\Unit4.pas=D:\RADproject\workstudy\clock.pas</Transaction>
+    <Transaction>2019/12/12 22:38:44.004.dfm,D:\RADproject\workstudy\Unit4.dfm=D:\RADproject\workstudy\clock.dfm</Transaction>
+    <Transaction>2019/12/13 15:04:51.094.pas,D:\RADproject\workstudy\Unit4.pas=D:\RADproject\workstudy\selectform.pas</Transaction>
+    <Transaction>2019/12/13 15:04:51.094.dfm,D:\RADproject\workstudy\Unit4.dfm=D:\RADproject\workstudy\selectform.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

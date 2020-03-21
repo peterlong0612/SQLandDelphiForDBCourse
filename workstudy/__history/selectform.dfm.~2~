@@ -1,0 +1,61 @@
+object selecttable: Tselecttable
+  Left = 0
+  Top = 0
+  Caption = #29702#24037#22823#23398#21220#24037#21161#23398'-'#26597#35810
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBGrid1: TDBGrid
+    Left = 272
+    Top = 63
+    Width = 363
+    Height = 234
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object BitBtn2: TBitBtn
+    Left = 104
+    Top = 63
+    Width = 75
+    Height = 25
+    Caption = #23398#29983#34920
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
+    TabOrder = 1
+    OnClick = BitBtn2Click
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOQuery1
+    Left = 24
+    Top = 96
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    SQL.Strings = (
+      'select xdh'#39#31995#20195#21495#39', xh'#39#23398#21495#39',xm '#39#22995#21517#39',csrq'#39#20986#29983#26085#26399#39',xb'#39#24615#21035#39' from xs')
+    Left = 24
+    Top = 48
+  end
+  object ADOConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Initi' +
+      'al Catalog=workstudy;Data Source=DESKTOP-9VOBQJE\MSSQLSERVER2'
+    Provider = 'SQLOLEDB.1'
+    Left = 24
+  end
+end

@@ -1,0 +1,102 @@
+object selecttable: Tselecttable
+  Left = 0
+  Top = 0
+  Caption = #29702#24037#22823#23398#21220#24037#21161#23398'-'#26597#35810
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 224
+    Top = 0
+    Width = 411
+    Height = 299
+    Align = alRight
+    Caption = 'Panel1'
+    TabOrder = 0
+    object DBGrid1: TDBGrid
+      Left = 1
+      Top = 1
+      Width = 409
+      Height = 297
+      Align = alClient
+      DataSource = DataSource1
+      TabOrder = 0
+      TitleFont.Charset = DEFAULT_CHARSET
+      TitleFont.Color = clWindowText
+      TitleFont.Height = -11
+      TitleFont.Name = 'Tahoma'
+      TitleFont.Style = []
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOQuery1
+    Left = 24
+    Top = 160
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    SQL.Strings = (
+      'select xdh'#39#31995#20195#21495#39', xh'#39#23398#21495#39',xm '#39#22995#21517#39',csrq'#39#20986#29983#26085#26399#39',xb'#39#24615#21035#39' from xs')
+    Left = 24
+    Top = 104
+  end
+  object ADOConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Initi' +
+      'al Catalog=workstudy;Data Source=DESKTOP-9VOBQJE\MSSQLSERVER2'
+    Provider = 'SQLOLEDB.1'
+    Left = 24
+    Top = 56
+  end
+  object MainMenu1: TMainMenu
+    Left = 80
+    object N1: TMenuItem
+      Caption = #26597#35810
+      object N2: TMenuItem
+        Caption = #31995#34920
+      end
+      object N3: TMenuItem
+        Caption = #21333#20301#34920
+      end
+      object N4: TMenuItem
+        Caption = #23398#29983#34920
+        OnClick = N4Click
+      end
+      object N5: TMenuItem
+        Caption = #23703#20301#24405#29992#34920
+      end
+      object N6: TMenuItem
+        Caption = #20540#29677#35760#24405
+      end
+    end
+    object N8: TMenuItem
+      Caption = #25554#20837
+    end
+    object N9: TMenuItem
+      Caption = #26356#26032
+    end
+    object N10: TMenuItem
+      Caption = #21024#38500
+    end
+    object N11: TMenuItem
+      Caption = #26356#22810
+      object N12: TMenuItem
+        Caption = #30005#23376#38047
+      end
+      object shoudong1: TMenuItem
+        Caption = #25163#21160#25805#20316'SQL'
+      end
+    end
+  end
+end

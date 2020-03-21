@@ -1,0 +1,29 @@
+unit selectform;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, DB, ADODB, StdCtrls, Buttons, Grids, DBGrids;
+
+type
+  Tselecttable = class(TForm)
+    DBGrid1: TDBGrid;
+    BitBtn2: TBitBtn;
+    DataSource1: TDataSource;
+    ADOQuery1: TADOQuery;
+    ADOConnection1: TADOConnection;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  selecttable: Tselecttable;
+
+implementation
+
+{$R *.dfm}
+
+end.
